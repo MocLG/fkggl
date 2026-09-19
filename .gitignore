@@ -1,0 +1,19 @@
+photo
+*.o
+__pycache__/
+*.pyc
+
+# Gradle / Android
+.gradle/
+.cxx/
+app/.cxx/
+build/
+app/build/
+local.properties
+*.apk
+app/src/main/cpp/photo.c
+app/src/main/cpp/photo.h
+app/src/main/jniLibs/
+
+# local
+photo.c.bak

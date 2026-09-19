@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="base_grid_size">8dp</dimen>
+    <dimen name="doub_grid_size">16dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FKGGL</string>
+    <string name="app_tagline">Embed any file into PNGs (Google Photos safe) — stored uncompressed, decoded byte-exact.</string>
+
+    <string name="section_encode">Encode — file to PNG parts</string>
+    <string name="section_decode">Decode — PNG parts back to file</string>
+
+    <string name="pick_file">Pick file to hide…</string>
+    <string name="pick_folder">Pick output folder…</string>
+    <string name="pick_parts">Pick PNG parts…</string>
+    <string name="pick_out_file">Pick where to save restored file…</string>
+
+    <string name="encode">Encode parts</string>
+    <string name="decode">Decode &amp; merge</string>
+    <string name="change">Change</string>
+    <string name="ok">OK</string>
+
+    <string name="part_size_title">Part size (MB)</string>
+    <string name="part_size_value">Part size: %d MB</string>
+    <string name="max_part">Max part size: %d MB (Google Photos 200 MP limit)</string>
+    <string name="parts_header">Part · range · status</string>
+    <string name="part_n">#%d</string>
+    <string name="range">%1$d – %2$d MB</string>
+    <string name="pending">pending</string>
+    <string name="done_sha">done · %s…</string>
+    <string name="parts_selected">%d parts selected</string>
+    <string name="restored_part">Restored part %1$d of %2$d…</string>
+
+    <string name="encode_done">Encode complete</string>
+    <string name="encode_summary">%1$d parts written in %2$ds.</string>
+    <string name="keep_shas_hint">Keep these SHA-256 prefixes to verify after download.</string>
+    <string name="decode_done">Restore complete</string>
+    <string name="decode_summary">%1$d parts merged in %2$ds.</string>
+
+    <string name="encode_failed">Encode failed: %s</string>
+    <string name="decode_failed">Decode failed: %s</string>
+    <string name="err_size_unknown">Could not determine file size</string>
+    <string name="err_bad_part_size">Part size must be 1–%1$d MB</string>
+</resources>
