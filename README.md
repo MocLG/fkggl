@@ -1,8 +1,8 @@
-# photo
+# FKGGL
 
 Embed any file inside a lossless PNG — and recover it byte-for-byte later.
 
-`photo` packs the raw bytes of any file into the RGB pixel values of a
+`FKGGL` packs the raw bytes of any file into the RGB pixel values of a
 perfectly normal, spec-valid PNG, with an 8-byte header recording the
 original file length. Decoding reverses the process exactly: the output is
 bit-identical to the input, verified by SHA-256.
@@ -21,7 +21,7 @@ byte-for-byte) while keeping the payload trivially recoverable.
   in the pixel values.
 - **Exact restore.** Every encode prints a SHA-256; decode prints it again
   so you can confirm the round trip. Tested byte-exact from 0 bytes to
-  400 MB, including cross-checks against the original Python/Pillow
+  500 MB, including cross-checks against the original Python/Pillow
   implementation.
 - **Fast.** ~0.2 s to embed a 16 MB file; a 400 MB file round-trips in
   about 10 seconds.
